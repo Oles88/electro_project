@@ -1,0 +1,348 @@
+a {
+    color: #665;
+    text-decoration: none;
+}
+a:hover{
+    color: #ff8c00;
+    text-decoration: none;
+}
+#cler{
+    clear: both;
+}
+
+.control{
+    max-width: 960px;
+    margin: 0 auto;
+}
+/* upper_level */
+
+.navbar {
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+  text-align: center;
+}
+
+.navbar li {
+    display: inline;
+    margin: 0px 20px 0px 20px;
+}
+
+/* upper_level */
+
+.search {
+  width: 150px;
+  position: relative;
+}
+.search input {
+  border: none;
+}
+.search .input {
+  width: 100%;
+  padding: 8px 37px 9px 15px;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  box-shadow: inset 0 0 5px rgba(0,0,0,0.1), inset 0 1px 2px rgba(0,0,0,0.3);
+  border-radius: 20px;
+  background: #EEE;
+  font: 13px Tahoma, Arial, sans-serif;
+  color: #555;
+  outline: none;
+}
+.search .input:focus {
+  box-shadow: inset 0 0 5px rgba(0,0,0,0.2), inset 0 1px 2px rgba(0,0,0,0.4);
+  background: #E8E8E8;
+  color: #333;
+}
+.search .submit {
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 37px;
+   height: 100%;
+  cursor: pointer;
+  background: url(https://lh4.googleusercontent.com/-b-5aBxcxarY/UAfFW9lVyjI/AAAAAAAABUg/gQtEXuPuIds/s13/go.png) 50% no-repeat;
+  opacity: 0.5;
+}
+
+.search .submit:hover {
+  opacity: 0.8;
+}
+
+input[type="search"] {
+  -webkit-appearance: none;
+}
+
+/* title */
+
+.title_elements{
+  float: left;
+  
+  min-width: 174px;
+  margin: 30px 0px 0px 0px;
+  
+}
+ #another_element{
+  width: 400px;
+  margin: 5px 0px 0px 0px;
+}
+/* title */
+
+/* list */
+
+.list{
+  background: linear-gradient(#aaa,#666);
+  list-style-type: none;
+  border: 1px;
+  width: 100%;
+  height: 37px;
+  padding: 11px 0px 0px 0px;
+  text-align: center;
+}
+
+.list li {
+    display: inline;
+    margin: 0px 18px 0px 18px;
+}
+.list a {
+    color: #fff;
+    text-decoration: none;
+}
+.list a:hover{
+    color: #ff8c00;
+    text-decoration: none;
+}
+/* list */
+
+/* nav */
+
+.nav{
+  max-width: 960px;
+  min-width: 681px;
+}
+
+/* nav */
+
+/* side */
+.left_side{
+  float: left;
+  
+}
+.right_side{
+  float: right;
+  
+}
+/* side */
+
+/* category */
+
+.category{
+  width: 225px;
+  border: 1px solid #aaa;
+  
+  padding: 5px 15px 6px 0px;
+}
+
+.category #cat{
+  
+  text-align: center;
+  font: bold 19px/34px 'lucida sans', 'trebuchet MS', 'Tahoma';
+  background: linear-gradient(#fff,#eee);
+  width: 240px;
+  border-bottom-width: 3px;
+  border-bottom-style: solid;
+  border-bottom-color: #e1dada;
+  
+}
+.category ul li{
+  border-bottom-width: 1px;
+  border-bottom-style: solid;
+  border-color: #aaa;
+  margin: 0px 0px 0px -19px;
+  font: bold 15px/28px  'trebuchet MS', 'Tahoma';
+  list-style-type: none;
+  
+}
+/* category */
+
+/* swiper */
+
+#my-swiper-down .swiper-container {
+        width: 670px;
+        height: 250px;
+        margin: 40px auto;
+        border: 1px solid;
+        border-radius: 37px;
+        border-color: #aaa;
+}
+#my-swiper-down .swiper-slide {
+        text-align: center;
+        font-size: 18px;
+        background: #fff;
+        /* Center slide text vertically */
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: -webkit-flex;
+        display: flex;
+        -webkit-box-pack: center;
+        -ms-flex-pack: center;
+        -webkit-justify-content: center;
+        justify-content: center;
+        -webkit-box-align: center;
+        -ms-flex-align: center;
+        -webkit-align-items: center;
+        align-items: center;
+}
+#my-swiper-down .swiper-container .swiper-pagination{
+  text-align: right;
+  margin-left: -110px;
+}
+#my-swiper-down .swiper-slide .picture{
+  width: 50%;
+}
+
+#my-swiper-down .swiper-slide .text{
+  width: 50%;
+}
+#my-swiper-down .slide_text{
+  color: #ff8C00;
+  margin-bottom: 25px;
+  font-size: 22px;
+}
+#my-swiper-down .slide_series{
+  font-size: 25px;
+  color: #848484;
+  margin-bottom: 15px;
+}
+#my-swiper-down .slide_name{
+  font-size: 20px;
+  color: #848484;
+}
+#my-swiper-down .slide_producer{
+  font-size: 15;
+  color: #1ba355;
+}
+#my-swiper-down .swiper-pagination-bullet-active {
+    opacity: 1;
+    background: #f80;
+}
+#my-swiper-down .swiper-pagination-bullet {
+    width: 11px;
+    height: 11px;
+}
+#my-swiper-up{
+  width: 240px;
+}
+#my-swiper-up .swiper-container {
+        width: 240px;
+        height: 183px;
+        margin: 16px auto;
+        border: 1px solid;
+        border-radius: 0px;
+        border-color: #aaa;
+       
+}
+#my-swiper-up .swiper-slide {
+        text-align: center;
+        font-size: 18px;
+        background: #fff;
+        /* Center slide text vertically */
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: -webkit-flex;
+        display: flex;
+        -webkit-box-pack: center;
+        -ms-flex-pack: center;
+        -webkit-justify-content: center;
+        justify-content: center;
+        -webkit-box-align: center;
+        -ms-flex-align: center;
+        -webkit-align-items: center;
+        align-items: center;
+}
+
+#my-swiper-up .swiper-container .swiper-pagination{
+  text-align: right;
+  margin: 0px 0px 0px -49px;
+}
+#my-swiper-up .swiper-slide .picture{
+  
+  float: left;
+}
+#my-swiper-up .title{
+  text-align: center;
+  font: bold 19px/34px 'lucida sans', 'trebuchet MS', 'Tahoma';
+  background: linear-gradient(#fff,#eee);
+  width: 240px;
+  border-bottom-width: 3px;
+  border-bottom-style: solid;
+  border-bottom-color: #e1dada;
+  position: absolute;
+  margin: -84px 0px 0px 0px;
+}
+
+#my-swiper-up .swiper-slide .text{
+  
+  float: right;
+}
+#my-swiper-up .slide_name{
+  font-size: 20px;
+  
+}
+#my-swiper-up .swiper-pagination-bullet-active {
+    opacity: 1;
+    background: #f80;
+}
+#my-swiper-up .swiper-pagination-bullet {
+    width: 11px;
+    height: 11px;
+}
+/* swiper */
+
+/* catalog */
+.catalog{
+  
+  width: 700px;
+  
+}
+.top_categories{
+  width: 100%;
+  text-align: center;
+}
+
+.products{
+  float: left;
+  margin: 9px;
+  padding: 6px 10px 45px 10px;
+  width: 95px;
+  height: 100px;
+  text-align: center;
+  border: solid 1px #aaa;
+}
+.manufacturer{
+  float: left;
+  margin: 9px;
+  padding: 6px 10px 45px 10px;
+  width: 95px;
+  height: 50px;
+  text-align: center;
+  border: solid 1px #aaa;
+}
+
+/* catalog */
+
+
+/*description*/
+.description{
+  margin-top: 22px;
+  border-top-width: 1px;
+  border-top-style: solid;
+  border-bottom-width: 1px;
+  border-bottom-style: solid;
+}
+.about{
+  font-size: 25px;
+}
+
+
+/*description*/
